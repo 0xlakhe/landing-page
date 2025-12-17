@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+  background-color: aqua;
+  justify-content: flex-end;
+  gap: 1em;
+  flex-wrap: wrap;
+}
