@@ -47,6 +47,7 @@ p {
   display: flex;
   justify-content: center;
   gap: 10em;
+  flex-wrap: wrap;
 }
 
 .grid p {
@@ -54,8 +55,49 @@ p {
   background-color: blue;
   text-align: center;
 }
+
 .gridimg {
   height: 150px;
   width: 150px;
   display: block;
+}
+
+.section3 {
+  display: flex;
+  background-color: aqua;
+  justify-content: center;
+}
+
+blockquote {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  background-color: blue;
+}
+
+cite {
+  align-self: flex-end;
+}
+
+.section4 {
+  display: flex;
+  background-color: pink;
+  justify-content: center;
+
+  margin: auto;
+  width: 50%;
+}
+
+.cta > p {
+  margin-top: -20px;
+}
+
+.section4 > button {
+  align-self: center;
+  margin-left: 2em;
+}
+
+footer > p {
+  background-color: yellow;
+  text-align: center;
 }
