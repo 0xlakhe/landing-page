@@ -1,27 +1,39 @@
+* {
+  margin: 0;
+}
+
 nav {
   display: flex;
   align-items: center;
-  background-color: blue;
+  background-color: #1f2937;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: 2em;
 }
 
 .logo {
   font-size: 34px;
-  margin-right: 10em;
+  /* margin-right: 20em; */
   font-weight: bold;
+  color: white;
 }
 
 nav > ul {
   list-style: none;
   display: flex;
-  background-color: aqua;
+  /* background-color: aqua; */
   justify-content: flex-end;
   gap: 1em;
   flex-wrap: wrap;
   font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 h1 {
   font-size: 48px;
   font-weight: 900;
@@ -36,68 +48,123 @@ p {
   /* flex-wrap: wrap; */
   gap: 2em;
   justify-content: space-around;
-  margin-top: 3em;
+  padding-top: 7em;
+  height: 300px;
+  background-color: #1f2937;
+  color: white;
 }
 
 .home {
   max-width: 25%;
+  margin-right: -40em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+button {
+  background-color: #3882f6;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  background-color: whiet;
+  justify-content: space-around;
+  height: 550px;
+}
+
+.second > h2 {
+  align-self: center;
+  margin-bottom: -170px;
+  font-size: 40px;
 }
 
 .grid {
   display: flex;
   justify-content: center;
-  gap: 10em;
+  gap: 5em;
   flex-wrap: wrap;
 }
 
-.grid p {
+.grid > p {
   width: 150px;
-  background-color: blue;
   text-align: center;
 }
 
 .gridimg {
   height: 150px;
-  width: 150px;
-  display: block;
+  width: 145px;
+  border: 2px solid #3882f6;
+  border-radius: 15px;
 }
 
 .section3 {
   display: flex;
-  background-color: aqua;
+  background-color: #e5e7eb;
   justify-content: center;
+  height: 200px;
+  padding: 7em;
 }
 
 blockquote {
   display: flex;
   flex-direction: column;
   width: 800px;
-  background-color: blue;
+}
+
+blockquote > p {
+  font-weight: 300;
+  font-size: 36px;
 }
 
 cite {
   align-self: flex-end;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.four {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  color: white;
 }
 
 .section4 {
   display: flex;
-  background-color: pink;
-  justify-content: center;
-
+  background-color: #3882f6;
+  justify-content: space-around;
+  align-items: center;
   margin: auto;
   width: 50%;
+  height: 100px;
+  border-radius: 10px;
+  padding: 1em;
 }
 
 .cta > p {
-  margin-top: -20px;
+  margin-top: 5px;
+  margin-right: -100px;
 }
 
 .section4 > button {
-  align-self: center;
   margin-left: 2em;
+  border: solid white;
+  height: 40px;
+  width: 120px;
 }
 
 footer > p {
-  background-color: yellow;
+  padding: 2em;
+  background-color: #1f2937;
   text-align: center;
+  color: white;
 }
